@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Shubham's Personal Website</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:ital,wght@1,600&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">-->
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <img src="favicon.ico" alt="logo" class="logo" title="Logo">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shubham's Personal Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:ital,wght@1,600&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/fad7514bb6.js" crossorigin="anonymous"></script>
+
+  <!-- TypeWriter js -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="favicon.ico" alt="logo" class="logo" title="Logo">
 
 
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html" target="_top">Home</a>
-            </li>
-            <li>
-              <a href="#id1" target="_self" >Skills</a>
-            </li>
-            <li>
-              <a href="https://i1.wp.com/digitaltonto.com/wp-content/uploads/2017/05/Einstein-tongue-sticking-out-e1495363911104.jpg?fit=200%2C300&ssl=1" target="_blank">About Me</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-      <h1>I'm Shubham</h1>
-      <h2>a <span class="pro">pro</span>grammer.</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-      <img src="images/mountain.png" alt="mountai-png">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" target="_top">Home</a>
+          </li>
+          <li>
+            <a href="#id1" target="_self">Skills</a>
+          </li>
+          <li>
+            <a href="https://i1.wp.com/digitaltonto.com/wp-content/uploads/2017/05/Einstein-tongue-sticking-out-e1495363911104.jpg?fit=200%2C300&ssl=1"
+              target="_blank">About Me</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="shubham-img"src="images/shubham.png" alt="shubham-img">
-        <h2>Hello.</h2>
-        <p class="intro">I am Shubham Kumar,student of BNMIT College,Bangalore pursuing Information Science and Engineering.</p>
+  </header>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Shubham</h1>
+    <h2 id="app"></h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountai-png">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="shubham-img" src="images/shubham.png" alt="shubham-img">
+      <h2>Hello.</h2>
+      <p class="intro">I am Shubham Kumar,student of BNMIT College,Bangalore pursuing Information Science and
+        Engineering.</p>
+    </div>
+    <hr>
+    <div class="skills" id="id1">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="">
+        <h3 class="xyz">Python Programming</h3>
+        <p>I know basics of pyhton programming and have knowledge about module for Web Scrapping,Working with various
+          documents such as PDF,spreadsheets,word document.</p>
+        <br>
       </div>
-      <hr>
-      <div class="skills" id="id1">
-        <h2>My Skills</h2>
-        <div class="skill-row">
-          <img class="code-img" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="">
-          <h3 class="xyz">Python Programming</h3>
-          <p>I know basics of pyhton programming and have knowledge about module for Web Scrapping,Working with various documents such as PDF,spreadsheets,word document.</p>
-          <br>
-        </div>
-        <div class="skill-row">
-          <img class="sql-img" src="https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif" alt="">
-          <h3>MY SQL</h3>
-          <p>I can work on Relational database and able to perform CRUD operation on database.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Feel free to contact me for any query.</h3>
-        <p class="contact-message"></p>
-        <a class="btn" href="mailto:shubhamjan1998@gmail.com">CONTACT ME</a>
+      <div class="skill-row">
+        <img class="sql-img" src="https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif" alt="">
+        <h3>MY SQL</h3>
+        <p>I can work on Relational database and able to perform CRUD operation on database.</p>
       </div>
     </div>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/shubham-kumar-455b51169/"title="https://www.linkedin.com/in/shubham-kumar-455b51169/" target="_blank">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/" title="https://twitter.com/" target="_blank">Twitter</a>
-      <a class="footer-link" href="https://www.instagram.com/imshubham_kr_/" title="https://www.instagram.com/imshubham_kr_/" target="_blank">Instagram</a>
-      <p class="copyright"> © 2021 Shubham Kumar</p>
-
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Feel free to contact me for any query.</h3>
+      <p class="contact-message"></p>
+      <a class="btn" href="mailto:shubhamjan1998@gmail.com">CONTACT ME</a>
     </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/shubham-kumar-455b51169/"
+      title="https://www.linkedin.com/in/shubham-kumar-455b51169/" target="_blank"><i
+        class="fab fa-linkedin fa-3x"></i></a>
+    <a class="footer-link" href="https://github.com/iamshubhamkr" title="https://github.com/iamshubhamkr"
+      target="_blank"><i class="fab fa-github fa-3x"></i></a>
+    <a class="footer-link" href="https://www.instagram.com/imshubham_kr_/"
+      title="https://www.instagram.com/imshubham_kr_/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+    <p class="copyright"> © 2021 Shubham Kumar</p>
+  </div>
 
+  <script src="index.js"></script>
+</body>
 
-  </body>
 </html>
