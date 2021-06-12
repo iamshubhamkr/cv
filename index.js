@@ -14,3 +14,6 @@ typewriter.typeString('Welcome to my website')
     .typeString('<strong>Full Stack Developer</strong>')
     .pauseFor(2500)
     .start();
+
+const date = new Date()
+document.getElementById("date").innerHTML = date.getFullYear()
